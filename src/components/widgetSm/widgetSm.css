@@ -1,0 +1,68 @@
+.widgetSm{
+    flex: 1;
+    padding: 20px;
+    margin-right: 20px;
+    box-shadow: 0px 0px 0px -5px rgba(151, 146, 146, 0.75);
+    -webkit-box-shadow: 0px 0px 10px -5px rgba(151, 146, 146, 0.75);
+    -moz-box-shadow: 0px 0px 10px -5px rgba(151, 146, 146, 0.75);
+}
+
+.widgetSmTitle{
+    font-weight: 600;
+}
+
+.widgetSmList{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.widgetSmListItem{
+    margin-top: 10px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.widgetSmImg{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.widgetSmInfo{
+    margin: 10px;
+}
+
+.widgetSmName{
+    font-weight: 600;
+}
+
+.widgetSmbtn{
+    color: #111;
+    font-weight: 300;
+    background-color: rgba(177, 189, 192, 0.438);
+    border: 1px groove rgba(194, 201, 204, 0.527);
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px rgba(151, 146, 146, 0.75);
+
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.widgetSmbtn:focus{
+    outline: none;
+}
+
+.widgetSmbtn:active{
+    transform: scale(0.98);
+}
+
+.widgetSmbtnIcon{
+    font-size: 15px !important;
+    margin-right: 5px;
+}

@@ -1,0 +1,92 @@
+.user{
+  flex: 6;
+  border-spacing: 1rem;
+  padding: 20px;
+}
+
+.userTitleContainer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.userTitle{
+  font-weight: 600;
+}
+
+.userTitleBtn{
+  padding: 5px 20px;
+  background-color: teal;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.userTitleBtn:active{
+  transform: scale(0.98);
+}
+
+.userContainer{
+  display: flex;
+  margin-top: 20px;
+}
+
+.showUserTop{
+  display: flex;
+  align-items: center;
+}
+
+.showUser{
+  flex: 1;
+  padding: 20px;
+  box-shadow: 0px 0px 10px -5px rgba(151, 146, 146, 0.75);
+  -webkit-box-shadow: 0px 0px 10px -5px rgba(151, 146, 146, 0.75);
+  -moz-box-shadow: 0px 0px 10px -5px rgba(151, 146, 146, 0.75);
+}
+
+.updateUser{
+  flex: 2;
+  padding: 20px;
+  box-shadow: 0px 0px 10px -5px rgba(151, 146, 146, 0.75);
+  -webkit-box-shadow: 0px 0px 10px -5px rgba(151, 146, 146, 0.75);
+  -moz-box-shadow: 0px 0px 10px -5px rgba(151, 146, 146, 0.75);
+  margin-left: 20px;
+}
+
+.showUserImg{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.showUserTopTitile{
+  display: flex;
+  flex-direction: column;
+}
+
+.showUsername{
+  font-weight: 600;
+}
+
+.showUserBottomTitle{
+  display: inline-block;
+  margin: 10px 0;
+
+}
+
+.showUserInfo{
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.showUserIcon{
+  font-size: 1.2rem !important;
+  margin-right: 1rem;
+
+}
