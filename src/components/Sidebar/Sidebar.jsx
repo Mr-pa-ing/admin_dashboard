@@ -1,5 +1,6 @@
 import './sidebar.css';
 import { Home, Timeline, TrendingUp, PermIdentity, Storefront, AttachMoney, Assessment, MailOutline, Feedback, Comment, BusinessCenter } from '@material-ui/icons';
+import { Link } from 'react-router-dom';
 
 export const Sidebar = () => {
   return (
@@ -9,9 +10,11 @@ export const Sidebar = () => {
             <div className="sidebarMenu">
                 <h3 className="sidebarTitle">Dashboard</h3>
                 <ul className="sidebarList">
-                    <li className="sidebarListItem active">
-                        <Home/> <span className='itemText'>Home</span>
-                    </li>
+                    <Link to="/" className='link'>
+                        <li className="sidebarListItem">
+                            <Home/> <span className='itemText'>Home</span>
+                        </li>
+                    </Link>
                     <li className="sidebarListItem">
                         <Timeline /> <span className='itemText'>Analytics</span>
                     </li>
@@ -24,12 +27,16 @@ export const Sidebar = () => {
             <div className="sidebarMenu">
                 <h3 className="sidebarTitle">Quick Menu</h3>
                 <ul className="sidebarList">
-                    <li className="sidebarListItem">
-                        <PermIdentity /> <span className='itemText'>Users</span>
-                    </li>
-                    <li className="sidebarListItem">
-                        <Storefront /> <span className='itemText'>Products</span>
-                    </li>
+                    <Link to="/users" className='link'>
+                        <li className="sidebarListItem">
+                            <PermIdentity /> <span className='itemText'>Users</span>
+                        </li>
+                    </Link>
+                    <Link to="/products" className='link'>
+                        <li className="sidebarListItem">
+                            <Storefront /> <span className='itemText'>Products</span>
+                        </li>
+                    </Link>
                     <li className="sidebarListItem">
                         <AttachMoney /> <span className='itemText'>Transcations</span>
                     </li>

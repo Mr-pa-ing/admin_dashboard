@@ -42,3 +42,8 @@
 .sidebarListItem.active{
     background-color: #111111;
 }
+
+.link{
+    text-decoration: none;
+    color: inherit;
+}

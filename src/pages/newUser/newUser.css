@@ -1,0 +1,67 @@
+.newUser{
+  flex: 6;
+  padding: 20px;
+}
+
+.newUserTitle{
+  font-weight: 600;
+}
+
+.newUserForm{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.input-group{
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-right: 20px;
+  margin-top: 16px;
+}
+
+.input-group label{
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.input-group input{
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #555;
+}
+
+.radio-group input{
+  margin-right: 3px;
+}
+
+.radio-group label{
+  margin-right: 10px;
+}
+
+.input-group select{
+   padding: 10px;
+   font-size: 1rem;
+   border-radius: 5px;
+   background-color: transparent;
+}
+
+.newUserSubmitBtn{
+  width: 150px;
+  font-size: 1rem;
+  padding: 10px 20px;
+  background-color: darkblue;
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.newUserSubmitBtn:active{
+  transform: scale(0.98);
+}

@@ -2,6 +2,7 @@
   flex: 6;
   border-spacing: 1rem;
   padding: 20px;
+
 }
 
 .userTitleContainer{
@@ -88,5 +89,70 @@
 .showUserIcon{
   font-size: 1.2rem !important;
   margin-right: 1rem;
+}
 
+.updateUserTitle{
+  display: inline-block;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.updateUserForm{
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-group{
+  margin-bottom: 10px;
+}
+
+.form-group>label{
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group .from-control{
+  width: 150%;
+  border: none;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #2F2F2F;
+  margin-bottom: 10px;
+}
+
+.from-control:focus{
+  outline: none;
+}
+
+.updateUserRight{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.updateUserImg{
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.updateUserbtn{
+  width: 120px;
+  font-size: 1rem;
+  padding: 10px 20px;
+  background-color: darkblue;
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  margin-right: 40px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.updateUserbtn:focus{
+  outline: none;
+}
+
+.updateUserbtn:active{
+  transform: scale(0.98);
 }
